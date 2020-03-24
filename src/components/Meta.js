@@ -8,6 +8,8 @@ export default function Meta({pageTitle, pageDescription}) {
         <meta charSet="utf-8" />
         <title>{pageTitle}</title>
         <meta name="Description" content={pageDescription}></meta>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
       </Head>
       <style jsx global>
         {`
