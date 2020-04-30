@@ -34,10 +34,10 @@ export default function Todos({data}) {
     );
 }
 
-export async function getServerSideProps(props) {
-    console.log(props);
+export async function getServerSideProps(context) {
+    //console.log(context);
     const url = `https://jsonplaceholder.typicode.com/todos/`;
     const result = await axios.get(url);
-    console.log('-----get data-------')
+    //console.log('-----get data-------')
     return { props: { data: result.data } }
 }

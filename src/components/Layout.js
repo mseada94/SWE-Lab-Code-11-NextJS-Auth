@@ -1,11 +1,11 @@
 import Header from "./Header";
 import Meta from './Meta';
 
-export default function Layout({children, pageTitle, pageDescription}) {
+export default function Layout({children, pageTitle, pageDescription, login = false}) {
   return (
     <>
       <Meta pageTitle={pageTitle} pageDescription={pageDescription} />
-      <Header />
+      <Header login={login}/>
       <h1>{pageTitle}</h1>
       <div className="container">{children}</div>
 

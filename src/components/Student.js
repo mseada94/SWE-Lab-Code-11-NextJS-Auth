@@ -1,11 +1,10 @@
-export default function Todo({ id, userId, title, state }) {
+export default function Todo({ firstName, lastName, age}) {
   return (
     <>
         <tr>
-            <td>{id}</td>
-            <td>{userId}</td>
-            <td>{title}</td>
-            <td>{state}</td>
+            <td>{firstName}</td>
+            <td>{lastName}</td>
+            <td>{age}</td>
         </tr>
         <style jsx>{`
             tr:nth-child(odd){

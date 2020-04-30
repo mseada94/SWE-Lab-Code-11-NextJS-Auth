@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-demo",
+  "name": "nextjs-auth",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,8 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "js-cookie": "^2.2.1",
     "next": "^9.3.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-toast-notifications": "^2.4.0"
   }
 }

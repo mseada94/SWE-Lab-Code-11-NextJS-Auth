@@ -4,10 +4,9 @@ export default function TodoTable({ children }) {
         <table>
             <thead>
             <tr>
-                <th>Id</th>
-                <th>UserId</th>
-                <th>Title</th>
-                <th>State</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
             </tr>
             </thead>
             <tbody>{children}</tbody>
